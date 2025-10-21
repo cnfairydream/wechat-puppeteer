@@ -1,0 +1,54 @@
+{
+  "导航": {
+    "ControlType": "ToolBarControl",
+    "ClassName": ""
+  },
+  "自己": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "聊天": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "通讯录": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "收藏": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "聊天文件": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "朋友圈": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "视频号": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "看一看": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "搜一搜": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "小程序面板": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "手机": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "设置及其他": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}

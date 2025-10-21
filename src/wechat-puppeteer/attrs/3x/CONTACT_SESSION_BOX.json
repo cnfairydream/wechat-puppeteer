@@ -1,0 +1,34 @@
+{
+  "搜索": {
+    "ControlType": "EditControl",
+    "ClassName": ""
+  },
+  "联系人": {
+    "ControlType": "ListControl",
+    "ClassName": ""
+  },
+  "添加朋友": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "新的朋友": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "通讯录管理": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "公众号": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "微信号/手机号": {
+    "ControlType": "EditControl",
+    "ClassName": ""
+  },
+  "取消": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}

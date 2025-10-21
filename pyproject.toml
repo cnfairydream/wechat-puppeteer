@@ -1,0 +1,21 @@
+[project]
+name = "wechat-puppeteer"
+version = "2025.10.1"
+description = "WeChat desktop client automation processing"
+authors = [{ name = "fairydream", email = "cn.fairydream@outlook.com" }]
+readme = { file = "README.md", content-type = "text/markdown" }
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11, <4.0"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/cnfairydream/duckdb-extra-asyncio"
+Repository = "https://github.com/cnfairydream/duckdb-extra-asyncio"

@@ -1,0 +1,58 @@
+{
+  "聊天信息": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "消息": {
+    "ControlType": "ListControl",
+    "ClassName": ""
+  },
+  "表情(Alt+E)": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "发送文件": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "截图": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "聊天记录": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "语音聊天": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "视频聊天": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "输入": {
+    "ControlType": "EditControl",
+    "ClassName": ""
+  },
+  "发送(S)": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "添加": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "消息免打扰": {
+    "ControlType": "CheckBoxControl",
+    "ClassName": ""
+  },
+  "置顶聊天": {
+    "ControlType": "CheckBoxControl",
+    "ClassName": ""
+  },
+  "清空聊天记录": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}

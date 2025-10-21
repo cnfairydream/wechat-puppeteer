@@ -1,0 +1,26 @@
+{
+  "会话": {
+    "ControlType": "ListControl",
+    "ClassName": ""
+  },
+  "订阅号": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "文件传输助手": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "发起群聊": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "搜索": {
+    "ControlType": "EditControl",
+    "ClassName": ""
+  },
+  "清空": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}

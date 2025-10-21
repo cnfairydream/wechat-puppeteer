@@ -1,0 +1,34 @@
+{
+  "搜索": {
+    "ControlType": "EditControl",
+    "ClassName": ""
+  },
+  "分类": {
+    "ControlType": "ListControl",
+    "ClassName": ""
+  },
+  "新建笔记": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "全部收藏": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "图片与视频": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "标签": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "折叠标签": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  },
+  "展开标签": {
+    "ControlType": "ListItemControl",
+    "ClassName": ""
+  }
+}

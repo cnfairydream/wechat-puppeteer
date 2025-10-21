@@ -1,0 +1,38 @@
+{
+  "微信": {
+    "ControlType": "WindowControl",
+    "ClassName": "WeChatMainWndForPC"
+  },
+  "CHAT": {
+    "ControlType": "WindowControl",
+    "ClassName": "ChatWnd"
+  },
+  "聊天文件": {
+    "ControlType": "WindowControl",
+    "ClassName": "FileListMgrWnd"
+  },
+  "朋友圈": {
+    "ControlType": "WindowControl",
+    "ClassName": "SnsWnd"
+  },
+  "浏览器": {
+    "ControlType": "PaneControl",
+    "ClassName": ""
+  },
+  "置顶": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "最大化": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "最小化": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "关闭": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}
