@@ -1,0 +1,18 @@
+{
+  "升级": {
+    "ControlType": "PaneControl",
+    "ClassName": "UpdateWnd"
+  },
+  "更新": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "暂不更新": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  },
+  "该版本不再提醒": {
+    "ControlType": "ButtonControl",
+    "ClassName": ""
+  }
+}

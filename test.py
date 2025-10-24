@@ -2,13 +2,31 @@
 import time
 
 import uiautomation
+from uiautomation import Control
 
-# time.sleep(5)
+time.sleep(5)
+
+# print(uiautomation.GetRootControl().WindowControl(ClassName="ChatWnd", Name="xxx"))
+def show_element_tree(control: Control, depth: int = 0):
+    def impl(x: Control, i: int):
+        if i <= depth and x.GetChildren():
+            for v in x.GetChildren():
+                print(i, i * 2 * " ", v)
+                impl(v, i + 1)
+
+    print(0, control)
+    impl(control, 1)
+
 
 for child in uiautomation.GetRootControl().GetChildren():
     # print(child, child.ProcessId)
+    # if child.ClassName =="NarratorHelperWindow":
+    #     uiautomation.Bitmap.FromControl(child).ToFile("xxx.bmp")
     if child.ControlTypeName == "WindowControl":
+        pass
+        # show_element_tree(child)
         # if child.ClassName == "ChatWnd":
+        #     print(child.ButtonControl(Name="视频聊天").Exists(0))
         #     for control, d in uiautomation.WalkControl(child, includeTop=True):
         #         print(d, control)
         #
@@ -32,11 +50,12 @@ for child in uiautomation.GetRootControl().GetChildren():
         #     uiautomation.Bitmap.FromControl(child.ToolBarControl(ClassName="mmui::XButton", Name="快捷操作")).ToFile("xxx.bmp")
 
         if child.ClassName == "WeChatMainWndForPC":
-            for control, d in uiautomation.WalkControl(child, includeTop=True):
-                print(d, control)
+            # for control, d in uiautomation.WalkControl(child, includeTop=True):
+            #     print(d, control)
+            show_element_tree(child, depth=20)
 
         #     # print(child.ButtonControl(Name="关闭"))
-        #     uiautomation.Bitmap.FromControl(child.ToolBarControl(Name="导航")).ToFile("xxx.bmp")
+        #     uiautomation.Bitmap.FromControl(child.PaneControl(ClassName="UpdateWnd")).ToFile("xxx.bmp")
 
         # if child.ClassName == "mmui::MainWindow":
         #     for control, d in uiautomation.WalkControl(child, includeTop=True):
